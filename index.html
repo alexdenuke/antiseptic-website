@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/swiper.css">
+    <link rel="stylesheet" href="/css/catalog.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <a class="header__logo" href="">
+                    <img class="header__logo-img" src="/Img/svg/logo.svg" alt="">
+                </a>
+                <a class="header__nav-link" href="">О компании</a>
+                <a class="header__nav-link" href="">Производство</a>
+                <a class="header__nav-link" href="">Каталог</a>
+                <a class="header__nav-link" href="">Партнёры</a>
+                <a class="header__nav-link" href="">Контакты</a>
+                <a class="header__nav-tel" href="">777888999</a>
+            </nav>
+        </div>
+
+    </header>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img class="swiper-img" src="/Img/1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="swiper-img" src="/Img/2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img class="swiper-img" src="/Img/9.jpg" alt="">
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+    <div class="catalog">
+        <div class="container">
+            <h2 class="catalog__title">
+                Каталог продукции
+            </h2>
+            <div class="catalog__list">
+                <div class="catalog__category">
+                    <h3 class="catalog__category-title">
+                        Кожные антисептики
+                    </h3>
+                </div>
+
+                <div class="catalog__category">
+                    <h3 class="catalog__category-title">
+                        Дезинфицирующие средства
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/js/swiper.js"></script>
+
+</body>
+
+</html>
