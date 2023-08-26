@@ -1,14 +1,19 @@
 .header {
+    font-size: 20px;
 }
 .header__nav {
     display: flex;
     align-items: center;
+    padding: 18px 0px;
 }
 .header__logo {
+    margin-right: 50px;
 }
 .header__logo-img {
+    height: 50px;
 }
 .header__nav-link {
+    margin-right: 40px;
 }
 .header__nav-tel {
 }

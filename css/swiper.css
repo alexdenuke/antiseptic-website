@@ -1,13 +1,13 @@
 .swiper {
     width: 100vw;
-    height: 500px;
+    height: 700px;
 }
 .swiper-slide {
-    height: 500px;
+    height: 700px;
     min-width: 100vw;
     object-fit: cover;
 }
 .swiper-img {
     width: 100%;
-    min-height: 500px;
+    min-height: 700px;
 }
