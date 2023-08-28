@@ -12,84 +12,127 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/css/reset.css">
-    
+
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/swiper.css">
     <link rel="stylesheet" href="/css/catalog.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/css/global.css">
 
 </head>
 
+
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="header__nav">
-                <a class="header__logo" href="">
-                    <img class="header__logo-img" src="/Img/svg/logo.svg" alt="">
-                </a>
-                <a class="header__nav-link" href="">О компании</a>
-                <a class="header__nav-link" href="">Производство</a>
-                <a class="header__nav-link" href="">Каталог</a>
-                <a class="header__nav-link" href="">Партнёры</a>
-                <a class="header__nav-link margin-right-auto" href="">Контакты</a>
-                <a class="header__nav-tel" href="">777888999</a>
-            </nav>
-        </div>
 
-    </header>
-    <!-- Slider main container -->
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-                <img class="swiper-img" src="/Img/1.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img class="swiper-img" src="/Img/2.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img class="swiper-img" src="/Img/3.jpg" alt="">
-            </div>
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+    <div class="wrapper">
+        <div class="content">
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
-    </div>
-
-    <div class="catalog">
-        <div class="container">
-            <h2 class="catalog__title">
-                Каталог продукции
-            </h2>
-            <div class="catalog__list">
-                <div class="catalog__category">
-                    <h3 class="catalog__category-title">
-                        Кожные антисептики
-                    </h3>
+            <header class="header">
+                <div class="container">
+                    <nav class="header__nav">
+                        <a class="header__logo" href="">
+                            <img class="header__logo-img" src="/Img/svg/logo.svg" alt="">
+                        </a>
+                        <a class="header__nav-link" href="">О компании</a>
+                        <a class="header__nav-link" href="">Производство</a>
+                        <a class="header__nav-link" href="">Каталог</a>
+                        <a class="header__nav-link" href="">Партнёры</a>
+                        <a class="header__nav-link margin-right-auto" href="">Контакты</a>
+                        <a class="header__nav-tel" href="">777888999</a>
+                    </nav>
                 </div>
 
-                <div class="catalog__category">
-                    <h3 class="catalog__category-title">
-                        Дезинфицирующие средства
-                    </h3>
+            </header>
+            <div class="swiper swiper-main">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="swiper-main-img" src="/Img/1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-main-img" src="/Img/2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-main-img" src="/Img/3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-main-pagination"></div>
+                <div class="swiper-button-prev swiper-main-button-prev"></div>
+                <div class="swiper-button-next swiper-main-button-next"></div>
+                <div class="swiper-scrollbar swiper-main-scrollbar"></div>
+            </div>
+
+            <div class="catalog">
+                <div class="container">
+                    <h2 class="catalog__title">
+                        Каталог продукции
+                    </h2>
+                    <div class="catalog__list">
+
+                        <div class="catalog__category">
+                            <h3 class="catalog__category-title">
+                                Антисептики для кожи
+                            </h3>
+                            <div class="catalog__img-wrap">
+                                <img class="catalog__img" src="/Img/skin antiseptic.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="catalog__category">
+                            <h3 class="catalog__category-title">
+                                Антисептики для поверхностей
+                            </h3>
+                            <div class="catalog__img-wrap">
+                                <img class="catalog__img" src="/Img/surface protectant.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="catalog__category">
+                            <h3 class="catalog__category-title">
+                                Антисептики для кожи
+                            </h3>
+                            <div class="catalog__img-wrap">
+                                <img class="catalog__img" src="/Img/skin antiseptic.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
+
+            <div class="swiper swiper-partners">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="swiper-partners-img" src="/Img/baby antiseptic.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-partners-img" src="/Img/surface protectant.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper-partners-img" src="/Img/skin antiseptic.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-partners-pagination"></div>
+                <div class="swiper-button-prev swiper-partners-button-prev"></div>
+                <div class="swiper-button-next swiper-partners-button-next"></div>
+                <div class="swiper-scrollbar swiper-partners-scrollbar"></div>
+            </div>
+
         </div>
+        <footer class="footer">
+            <div class="container">
+            </div>
+        </footer>
     </div>
+
+
 
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="/js/swiper.js"></script>
+    <script src="/js/header.js"></script>
 
 </body>
 
