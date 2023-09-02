@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/swiper.css">
-    <link rel="stylesheet" href="/css/catalog.css">
+    <link rel="stylesheet" href="/css/category.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/css/global.css">
@@ -31,14 +31,14 @@
             <header class="header">
                 <div class="container">
                     <nav class="header__nav">
-                        <a class="header__logo" href="">
+                        <a class="header__logo" href="/index.html">
                             <img class="header__logo-img" src="/Img/svg/logo.svg" alt="">
                         </a>
                         <a class="header__nav-link" href="">О компании</a>
                         <a class="header__nav-link" href="">Производство</a>
-                        <a class="header__nav-link" href="">Каталог</a>
+                        <a class="header__nav-link" href="">Категории</a>
                         <a class="header__nav-link" href="">Партнёры</a>
-                        <a class="header__nav-link margin-right-auto" href="">Контакты</a>
+                        <a class="header__nav-link margin-right-auto" href="/html/contacts.html">Контакты</a>
                         <a class="header__nav-tel" href="">777888999</a>
                     </nav>
                 </div>
@@ -47,7 +47,7 @@
             <div class="swiper swiper-main">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img class="swiper-main-img" src="/Img/1.jpg" alt="">
+                        <img class="swiper-main-img" src="/Img/main-slide.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
                         <img class="swiper-main-img" src="/Img/2.jpg" alt="">
@@ -62,45 +62,69 @@
                 <div class="swiper-scrollbar swiper-main-scrollbar"></div>
             </div>
 
-            <div class="catalog">
+            <section class="category section-margin">
                 <div class="container">
-                    <h2 class="catalog__title">
-                        Каталог продукции
+                    <h2 class="category__title">
+                        Категории продукции
                     </h2>
-                    <div class="catalog__list">
+                    <div class="category__list">
 
-                        <div class="catalog__category">
-                            <h3 class="catalog__category-title">
+                        <div class="category__item">
+                            <div class="category__img-wrap">
+                                <img class="category__img" src="/Img/skin antiseptic.jpg" alt="">
+                            </div>
+                            <h3 class="category__item-title">
                                 Антисептики для кожи
                             </h3>
-                            <div class="catalog__img-wrap">
-                                <img class="catalog__img" src="/Img/skin antiseptic.jpg" alt="">
-                            </div>
+                            <h4 class="category__item-about">
+                                В эпоху, когда забота о коже и общая гигиена становятся неотъемлемой частью повседневной жизни, наша линия антисептиков для кожи предлагает высший стандарт защиты и ухода. Разработанные с использованием передовых научных исследований, наши продукты обеспечивают надежную защиту кожи от потенциально вредных микроорганизмов, сохраняя при этом её естественный баланс и мягкость. Они идеально подходят не только для домашнего применения, но и для профессиональных медицинских учреждений, таких как больницы и клиники. Будучи производителями, мы контролируем каждый этап производства, чтобы вы могли быть уверены в безупречном качестве каждого продукта.
+                            </h3>
+                            <a class="category__item-link" href="">
+                                <button class="category__item-btn">
+                                    Подробнее
+                                </button>
+                            </a>
                         </div>
 
-                        <div class="catalog__category">
-                            <h3 class="catalog__category-title">
+                        <div class="category__item">
+                            <div class="category__img-wrap">
+                                <img class="category__img" src="/Img/surface protectant.jpg" alt="">
+                            </div>
+                            <h3 class="category__item-title">
                                 Антисептики для поверхностей
                             </h3>
-                            <div class="catalog__img-wrap">
-                                <img class="catalog__img" src="/Img/surface protectant.jpg" alt="">
-                            </div>
+                            <h4 class="category__item-about">
+                                Безопасность и чистота поверхностей — ключевой аспект в предотвращении распространения инфекций в медицинских учреждениях. Наша линия антисептиков для поверхностей разработана специально для таких требовательных условий. Продукция эффективно устраняет бактерии и вирусы, обеспечивая стерильность и безопасность рабочих пространств. В процессе производства мы используем строгие контрольные процедуры, чтобы гарантировать, что каждый продукт соответствует международным стандартам качества.
+                            </h3>
+                            <a class="category__item-link" href="">
+                                <button class="category__item-btn">
+                                    Подробнее
+                                </button>
+                            </a>
                         </div>
 
-                        <div class="catalog__category">
-                            <h3 class="catalog__category-title">
+                        <div class="category__item">
+                            <div class="category__img-wrap">
+                                <img class="category__img" src="/Img/skin antiseptic.jpg" alt="">
+                            </div>
+                            <h3 class="category__item-title">
                                 Антисептики для кожи
                             </h3>
-                            <div class="catalog__img-wrap">
-                                <img class="catalog__img" src="/Img/skin antiseptic.jpg" alt="">
-                            </div>
+                            <h4 class="category__item-about">
+                                В эпоху, когда забота о коже и общая гигиена становятся неотъемлемой частью повседневной жизни, наша линия антисептиков для кожи предлагает высший стандарт защиты и ухода. Разработанные с использованием передовых научных исследований, наши продукты обеспечивают надежную защиту кожи от потенциально вредных микроорганизмов, сохраняя при этом её естественный баланс и мягкость. Они идеально подходят не только для домашнего применения, но и для профессиональных медицинских учреждений, таких как больницы и клиники. Будучи производителями, мы контролируем каждый этап производства, чтобы вы могли быть уверены в безупречном качестве каждого продукта.
+                            </h3>
+                            <a class="category__item-link" href="">
+                                <button class="category__item-btn">
+                                    Подробнее
+                                </button>
+                            </a>
                         </div>
 
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="swiper swiper-partners">
+            <!-- <div class="swiper swiper-partners">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img class="swiper-partners-img" src="/Img/baby antiseptic.jpg" alt="">
@@ -116,7 +140,11 @@
                 <div class="swiper-button-prev swiper-partners-button-prev"></div>
                 <div class="swiper-button-next swiper-partners-button-next"></div>
                 <div class="swiper-scrollbar swiper-partners-scrollbar"></div>
-            </div>
+            </div> -->
+
+                <div class="img-con">
+                    <img class="img-test" src="/Img/main-slide.jpg" alt="">
+                </div>
 
         </div>
         <footer class="footer">

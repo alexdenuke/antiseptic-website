@@ -33,3 +33,7 @@ a:hover {
 .margin-right-auto {
     margin-right: auto;
 }
+
+.section-margin {
+    margin: 100px 0px;
+}
