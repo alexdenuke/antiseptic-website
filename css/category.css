@@ -19,6 +19,9 @@
     display: flex;
     flex-direction: column;
 }
+.category__item-margin {
+    margin-top: 150px;
+}
 .category__img-wrap {
 }
 .category__img {
@@ -36,34 +39,31 @@
 }
 
 
-.category__item-link {
-    align-self: center;
-}
-/* .category__item-btn {
-    margin-top: 20px;
-    font-size: 20px;
-    padding: 10px 30px;
-    background-color: #2D9CDB; 
-    border: none;
-    border-radius: 5px; 
-    cursor: pointer; 
-    transition: all 0.3s ease; 
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); 
-} */
+
 
 .category__item-btn {
+    width: min-content;
+    align-self: center;
+    display: inline-block;
     margin-top: 20px;
     color: white;
     font-weight: 700;
     font-size: 18px;
-    padding: 10px 30px;
-    margin-left: auto;
+    padding: 15px 30px;
     background-color: #2A7BA8; /* Теперь это начальный, более темный цвет кнопки */
     border: none;
     border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.category__item-btn:hover {
+    background-color: #2D9CDB; /* Светлый цвет при наведении */
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
 }
 
 /* .category__item-btn:hover {
@@ -72,11 +72,7 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
 } */
 
-.category__item-btn:hover {
-    background-color: #2D9CDB; /* Светлый цвет при наведении */
-    transform: scale(1.05);
-    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
-}
+
 .category__item-btn:focus {
     outline: none; /* Удаление стандартного контура при фокусе */
 }

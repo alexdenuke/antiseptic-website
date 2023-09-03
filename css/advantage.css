@@ -1,0 +1,39 @@
+.advantage {
+    height: 800px;
+    color: white;
+    background-image: url('/Img/advantages-2000.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0px;
+}
+.advantage__wrap {
+    display: flex;
+    align-items: center;
+    height: 800px;
+}
+
+.advantage__content {
+    display: flex;
+    flex-direction: column;
+}
+.advantage__sub-title {
+    font-size: 40px;
+}
+.advantage__sub-title {
+    font-size: 20px;
+}
+.advantage__icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.advantage__icon-wrap {
+    flex-basis: 50%;
+}
+
+.advantage__icon-title {
+    font-size: 16px;
+}
+.advantage__icon {
+    height: 50px;
+    width: 50px;
+}

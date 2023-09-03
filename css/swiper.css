@@ -2,33 +2,64 @@
     width: 100%;
     height: 800px;
 }
-.swiper-slide {
-    /* height: 800px; */
-}
-.swiper-main-img {
-    width: 100%;
+.slide-main-wrap {
+    display: flex;
+    align-items: center;
     height: 800px;
-    overflow: hidden; /* чтобы обрезать изображение по контейнеру */
+    
+}
+.swiper-slide {
+    padding: 20px 30px;
+}
+.swiper-slide-main {
+    color: white;
+    background-image: url('/Img/main-slide-1-2000.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.slide-main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.slide-main-link {
+    align-self: center;
+    display: inline-block; /* важно для применения анимации */
+    margin-top: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #2A7BA8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* чтобы убрать подчеркивание у ссылки */
+    transition: all 0.3s ease;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.slide-main-link:hover {
+    background-color: #2D9CDB; /* Светлый цвет при наведении */
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
+}
+.slide-main-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.slide-main-sub-title {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.slide-main-img {
+    height: 600px;
 }
 .swiper-partners-img {
     width: auto;
     height: 100%;
     min-width: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-
-
-.img-con {
-    width: 100vw; /* ширина контейнера будет меняться в зависимости от ширины экрана */
-    height: 300px; /* фиксированная высота */
-    overflow: hidden; /* чтобы обрезать изображение */
-}
-.img-test {
-    width: auto; /* автоматическая ширина, чтобы изображение не сжималось */
-    min-width: 100%; /* минимальная ширина изображения равна ширине контейнера */
-    height: 100%;
     object-fit: cover;
     object-position: center;
 }
