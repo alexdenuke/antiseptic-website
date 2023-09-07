@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-    color: #551A8B;
+    color: #2A7BA8;
 }
 
 .wrapper {
@@ -37,4 +37,7 @@ a:hover {
 
 .section-margin {
     margin: 100px 0px;
+}
+.text-color {
+    color: #60c7ff;
 }

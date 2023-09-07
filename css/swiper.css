@@ -1,4 +1,10 @@
 .swiper {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Safari */
+    -khtml-user-select: none;    /* Konqueror HTML */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none; 
     width: 100%;
     height: 800px;
 }
@@ -25,12 +31,12 @@
 .slide-main-link {
     align-self: center;
     display: inline-block; /* важно для применения анимации */
-    margin-top: 40px;
-    color: white;
-    font-weight: 700;
+    margin-top: 20px;
+    color: #2A7BA8;
+    font-weight: 900;
     font-size: 18px;
     padding: 15px 30px;
-    background-color: #2A7BA8;
+    background-color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -40,18 +46,23 @@
 }
 
 .slide-main-link:hover {
-    background-color: #2D9CDB; /* Светлый цвет при наведении */
+    color: white;
+    background-color: #2A7BA8; /* Светлый цвет при наведении */
     transform: scale(1.05);
     box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
 }
 .slide-main-title {
     font-weight: 700;
     font-size: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .slide-main-sub-title {
     font-size: 20px;
     line-height: 1.5;
+}
+.slide-main-sub-title-item {
+    list-style-type: disc;
+    margin-bottom: 10px;
 }
 .slide-main-img {
     height: 600px;

@@ -38,20 +38,19 @@
     font-size: 16px;
 }
 
-
-
-
 .category__item-btn {
+    white-space: nowrap;
     width: min-content;
     align-self: center;
     display: inline-block;
     margin-top: 20px;
-    color: white;
+    color: #2A7BA8;
     font-weight: 700;
     font-size: 18px;
     padding: 15px 30px;
-    background-color: #2A7BA8; /* Теперь это начальный, более темный цвет кнопки */
-    border: none;
+    /* background-color: #2A7BA8;  */
+    border: 2px solid #2A7BA8;
+    /* border: none; */
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
@@ -61,7 +60,8 @@
 }
 
 .category__item-btn:hover {
-    background-color: #2D9CDB; /* Светлый цвет при наведении */
+    color: white;
+    background-color: #2A7BA8; /* Светлый цвет при наведении */
     transform: scale(1.05);
     box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
 }

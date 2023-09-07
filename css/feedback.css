@@ -1,0 +1,52 @@
+.feedback {
+}
+
+.feedback__title {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.feedback__form-wrap {
+    display: flex;
+    align-items: center;
+
+}
+.feedback__form {
+    margin-right: auto;
+}
+.feedback__label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.feedback__input {
+    padding: 10px 20px;
+    display: block;
+    background-color: #f3f3f3;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all ease 0.3s;
+    
+}
+.feedback__input:focus {
+    
+    background-color: #d7ffd7;
+}
+.feedback__textarea {
+    background-color: #f3f3f3;
+    display: block;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+    transition: all ease 0.3s;
+}
+.feedback__textarea:focus {
+    background-color: #d7ffd7;
+}
+.feedback__wrap-img {
+}
+.feedback__img {
+    height: 100%;
+}
