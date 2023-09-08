@@ -3,12 +3,12 @@ const mainSwiper = new Swiper('.swiper-main', {
   loop: true,
 
   pagination: {
-    el: '.swiper-main-pagination',
+    el: '.swiper-pagination',
   },
 
   navigation: {
-    nextEl: '.swiper-main-button-next',
-    prevEl: '.swiper-main-button-prev',
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 
   scrollbar: {

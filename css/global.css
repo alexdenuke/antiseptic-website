@@ -35,9 +35,9 @@ a:hover {
     margin-right: auto;
 }
 
-.section-margin {
-    margin: 100px 0px;
+.section-padding {
+    padding: 100px 0px;
 }
 .text-color {
-    color: #60c7ff;
+    color: #ff795b;
 }
