@@ -26,6 +26,7 @@
 .slide-main-content {
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .slide-main-link {
@@ -57,8 +58,9 @@
     margin-bottom: 30px;
 }
 .slide-main-sub-title {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
+    margin-left: 20px;
 }
 .slide-main-sub-title-item {
     list-style-type: disc;
@@ -67,6 +69,8 @@
 .slide-main-img {
     height: 600px;
 }
+.slide-main-img-wrap {
+}
 .swiper-partners-img {
     width: auto;
     height: 100%;
@@ -74,8 +78,10 @@
     object-fit: cover;
     object-position: center;
 }
-
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-next::after, .swiper-button-prev::after {
+    color: #2A7BA8; /* например, #FF0000 для красного */
+}
+/* .swiper-button-prev, .swiper-button-next {
     position: absolute;
     width: 40px;
     height: 40px;
@@ -109,8 +115,8 @@
 
 .swiper-button-next:hover::after {
     border-left: 10px solid #2A7BA8;
-}
+} */
 
 .swiper-pagination-bullet-active {
-    background-color: #2A7BA8; /* желаемый цвет для активного элемента */
+    background-color: #2A7BA8; 
 }
