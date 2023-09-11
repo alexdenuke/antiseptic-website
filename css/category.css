@@ -1,17 +1,10 @@
 .category {
 }
-.container {
-}
-.category__title {
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
+
 .category__list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
 }
 .category__item {
     flex: 0 1 40%;
@@ -48,9 +41,7 @@
     font-weight: 700;
     font-size: 18px;
     padding: 15px 30px;
-    /* background-color: #2A7BA8;  */
     border: 2px solid #2A7BA8;
-    /* border: none; */
     border-radius: 5px;
     text-align: center;
     text-decoration: none;
@@ -60,19 +51,9 @@
 }
 
 .category__item-btn:hover {
+    outline: none;
     color: white;
-    background-color: #2A7BA8; /* Светлый цвет при наведении */
+    background-color: #2A7BA8; 
     transform: scale(1.05);
     box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
-}
-
-/* .category__item-btn:hover {
-    background-color: #2A7BA8; 
-    transform: scale(1.05); 
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
-} */
-
-
-.category__item-btn:focus {
-    outline: none; /* Удаление стандартного контура при фокусе */
 }

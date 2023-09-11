@@ -22,13 +22,17 @@ a:hover {
 
 .content {
     flex: 1;
-    margin-bottom: 100px;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px 20px;
+}
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .margin-right-auto {

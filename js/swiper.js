@@ -7,8 +7,9 @@ const mainSwiper = new Swiper('.swiper-main', {
   },
 
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.custom-swiper-button-next',
+    prevEl: '.custom-swiper-button-prev',
+    
   },
 
   scrollbar: {

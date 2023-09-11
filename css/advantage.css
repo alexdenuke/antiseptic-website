@@ -1,50 +1,47 @@
 .advantage {
-    height: 800px;
+    /* height: 800px; */
+
     color: white;
-    background-image: url('/Img/advantage-2000-4.jpg');
+    background-image: url('/Img/advantage-2000-1200.jpg');
     background-size: cover;
     background-position: center;
-    padding: 20px 0px;
     line-height: 1.5;
 }
 .advantage__wrap {
+    padding: 50px 0px;
     display: flex;
     align-items: center;
-    height: 800px;
+    /* height: 800px; */
 }
 
 .advantage__content {
     display: flex;
     flex-direction: column;
     margin-right: 70px;
+    flex: 0 1 40%;
 }
 .advantage__title {
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 700;
     margin-bottom: 30px;
     line-height: 1.2 !important;
 }
 .advantage__sub-title {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 700;
 }
 .advantage__btn {
     white-space: nowrap;
-    width: min-content;
     align-self: center;
-    display: inline-block;
-    margin-top: 40px;
+    margin-top: 30px;
     color: white;
     font-weight: 900;
     font-size: 18px;
     padding: 15px 30px;
     color: #1b1b1b;
-    background-color: #ffffff; /* Теперь это начальный, более темный цвет кнопки */
-    border: none;
+    background-color: #ffffff;
     border-radius: 5px;
     text-align: center;
-    text-decoration: none;
-    cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
@@ -55,9 +52,15 @@
     box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
 }
 .advantage__icons {
+    flex: 0 1 60%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.advantage__icon-title {
+    font-size: 18px;
+    text-align: center;
 }
 .advantage__icon-wrap {
     flex-basis: 40%;
@@ -65,12 +68,10 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 50px;
-}
-.advantage__icon-title {
-    font-size: 18px;
-    text-align: center;
+    align-items: center;
 }
 .advantage__icon {
-    height: 70px;
+    max-width: 50px;
+    max-height: 50px;
     margin-bottom: 20px;
 }

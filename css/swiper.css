@@ -1,3 +1,5 @@
+
+
 .swiper {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none;   /* Safari */
@@ -15,7 +17,7 @@
     
 }
 .swiper-slide {
-    padding: 20px 30px;
+    padding: 20px 20px;
 }
 .swiper-slide-main {
     color: white;
@@ -80,42 +82,11 @@
 }
 .swiper-button-next::after, .swiper-button-prev::after {
     color: #2A7BA8; /* например, #FF0000 для красного */
-}
-/* .swiper-button-prev, .swiper-button-next {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #fff;
-    z-index: 10;
+
 }
 
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-}
 
-.swiper-button-prev::after {
-  border-right: 10px solid #000000;
-  margin-right: 5px;
-}
 
-.swiper-button-next::after {
-  border-left: 10px solid #000000;
-  margin-left: 5px;
-}
-.swiper-button-prev:hover::after {
-    border-right: 10px solid #2A7BA8;
-}
-
-.swiper-button-next:hover::after {
-    border-left: 10px solid #2A7BA8;
-} */
 
 .swiper-pagination-bullet-active {
     background-color: #2A7BA8; 
