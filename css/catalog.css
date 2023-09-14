@@ -51,12 +51,12 @@
     align-self: center;
     display: inline-block;
     margin-top: 20px;
-    color: #2A7BA8;
+    color: var(--main-color);
     font-weight: 700;
     font-size: 18px;
     padding: 15px 30px;
     /* background-color: #2A7BA8;  */
-    border: 2px solid #2A7BA8;
+    border: 2px solid var(--main-color);
     /* border: none; */
     border-radius: 5px;
     text-align: center;
@@ -68,7 +68,7 @@
 
 .catalog__link:hover {
     color: white;
-    background-color: #2A7BA8; /* Светлый цвет при наведении */
+    background-color: var(--main-color); /* Светлый цвет при наведении */
     transform: scale(1.05);
     box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
 }

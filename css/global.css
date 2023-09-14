@@ -1,6 +1,17 @@
 /* Темно-серый:
 HEX: #5A5A5A */
 
+:root {
+    --main-color: #2A7BA8;
+    --background-color: #165576;
+    --border-color: rgb(221, 221, 221);
+
+    --company-color-dark: #006c69;
+    --company-color-medium: #00a09c;
+    --company-color-light: #a4e5da;
+    --company-color-focus: #d1f3ed;
+}
+
 body {
     font-family: 'Noto Sans', sans-serif;
     color: #1b1b1b;
@@ -11,9 +22,19 @@ a {
 }
 
 a:hover {
-    color: #2A7BA8;
+    color: var(--company-color-dark);
 }
-
+.title-border {
+    display: block;
+    width: 150px;
+    height: 7px;
+    background-color: var(--company-color-dark);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.container-padding {
+    padding: 0px 20px;
+}
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -43,7 +64,10 @@ a:hover {
     padding: 100px 0px;
 }
 .text-color {
-    color: #ff795b;
+    /* text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: var(--company-color-light); */
+    color: var(--company-color-light);
 }
 .flex {
     display: flex;
