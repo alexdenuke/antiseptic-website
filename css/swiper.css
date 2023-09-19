@@ -16,7 +16,7 @@
     
 }
 .swiper-slide {
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
 }
 .swiper-slide-main {
     color: white;
@@ -29,6 +29,11 @@
     background-image: url('/Img/main-slide-2-3000.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.swiper-slide-main-3 {
+    /* color: white;
+background-color: #127ab6; */
 }
 .slide-main-content {
     display: flex;
@@ -76,7 +81,7 @@
     margin-bottom: 10px;
 }
 .slide-main-img {
-    height: 600px;
+    height: 500px;
 }
 .slide-main-img-wrap {
 }
