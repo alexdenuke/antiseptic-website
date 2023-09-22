@@ -7,8 +7,8 @@ const mainSwiper = new Swiper('.swiper-main', {
   },
 
   navigation: {
-    nextEl: '.custom-swiper-button-next',
-    prevEl: '.custom-swiper-button-prev',
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
     
   },
 
